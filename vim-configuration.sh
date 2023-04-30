@@ -1,12 +1,12 @@
 #!/bin/bash
 #Configure our .vimrc file
 
-vim $HOME/.vimrc
+touch $HOME/.vimrc
 
 echo 'syntax on "Enable syntax highlighting' >> $HOME/.vimrc
-filetype plugin indent on "Enable file type based indentation
-set autoindent "respect indentation when starting a new line
-set expandtab
-set tabstop=4
-set shiftwidth=4
-set backspace=2
+echo 'filetype plugin indent on "Enable file type based indentation' >> $HOME/.vimrc
+echo 'set autoindent "respect indentation when starting a new line' >> $HOME/.vimrc
+echo 'set expandtab' >> $HOME/.vimrc
+echo 'set tabstop=4' >> $HOME/.vimrc
+echo 'set shiftwidth=4' >> $HOME/.vimrc
+echo 'set backspace=2' >> $HOME/.vimrc
