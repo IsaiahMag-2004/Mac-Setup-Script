@@ -18,3 +18,8 @@ echo 'alias gcm="git commit -m"' >> $HOME/.zshrc
 echo 'alias glg="git log"' >> $HOME/.zshrc
 echo 'alias gst="git status"' >> $HOME/.zshrc
 
+#brew alias
+echo 'alias bs="brew search"' >> $HOME/.zshrc
+echo 'alias bi="brew install"' >> $HOME/.zshrc
+echo 'alias bupd="brew update"' >> $HOME/.zshrc
+echo 'alias bupg="brew upgrade"' >> $HOME/.zshrc
